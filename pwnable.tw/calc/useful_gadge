@@ -1,0 +1,13 @@
+0x0805d4bf : mov esi, edx ; ret
+0x080ACEFD : pop esi ; ret
+0x080701AA : pop edx; ret
+
+
+0x080701D0 : pop edx ; pop ecx ; pop ebx ; ret
+
+0x080701AA : pop edx ; ret
+0x0805ABA5 : pop ebx; ret
+0x0805c34b : pop eax ; ret
+0x080ACEFD : pop esi ; ret
+0x08049a21 : int 0x80
+
