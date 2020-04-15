@@ -1,0 +1,3 @@
+unknow(&buf, 0, 10)
+rcx bzero
+r8 fs:[FFFFFFFFFFFFFFA8]
