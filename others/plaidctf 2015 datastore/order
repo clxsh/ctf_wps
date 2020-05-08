@@ -1,0 +1,16 @@
+func main:
+malloc(0x38)
+malloc(0x8)
+malloc(0x9)
+
+func PUT:
+malloc(0x38)
+malloc(0x...) func my_readline
+malloc(size)  content
+
+func DEL:
+malloc(0x...) func my_readline
+free(key)
+free(content)
+free(data_struct)
+free(readline)

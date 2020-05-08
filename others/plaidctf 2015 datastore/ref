@@ -1,0 +1,9 @@
+glibc 2.23
+off by one make chunk overlap
+get libc base(from unsorted bin)
+fastbin(0x70) chunk->fd = __malloc_hook-0x10-3 (glibc 2.23 malloc.c:3382)
+malloc chunk "__malloc_hoook", write one_gadget address
+
+https://ctf-wiki.github.io/ctf-wiki/pwn/linux/glibc-heap/off_by_one-zh/#2-plaidctf-2015-plaiddb
+
+https://bbs.pediy.com/thread-246966.htm
